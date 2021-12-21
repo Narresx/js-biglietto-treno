@@ -20,9 +20,18 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 
 // Punto 1
 
-const distanceKm = prompt('A quanto ammonta la distanza che vuoi percorrere? ( Indicare la distanza in chilometri)')
-console.log(distanceKm)
-const age = prompt('Quanti anni hai?')
-console.log(age)
+const distanceKm = prompt('A quanto ammonta la distanza che vuoi percorrere? (Indicare la distanza in chilometri)');
+console.log(distanceKm);
+const age = prompt('Quanti anni hai?');
+console.log(age);
+
+// Punto 2
+
+let ticketPrice = distanceKm * 0.21;
+console.log(ticketPrice);
+
+if (age < 18); {
+    const ticketPrice = (ticketPrice / 20 % );
+}
 
 
