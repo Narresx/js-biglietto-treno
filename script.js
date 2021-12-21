@@ -30,8 +30,12 @@ console.log(age);
 let ticketPrice = distanceKm * 0.21;
 console.log(ticketPrice);
 
-if (age < 18); {
-    const ticketPrice = (ticketPrice / 20 % );
+if (age < 18) {
+    ticketPrice = ticketPrice * 0.8;
+} else if (age > 65) {
+    ticketPrice = ticketPrice * 0.6;
 }
 
+console.log(ticketPrice);
 
+// Punto 3
