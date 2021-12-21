@@ -14,8 +14,8 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 /*  Procedimento
 
 1 - Chiediamo all'utente i Km che vuole percorrere in treno e la sua età
-2 - Calcolare il prezzo del biglietto in base alle varie variabili della traccia
-3 - Recupero un elemento in pagina e stampo il risultato
+2 - Calcoliamo il prezzo del biglietto in base alle varie variabili della traccia
+3 - Recuperiamo un elemento in pagina e stampo il risultato
 */
 
 // Punto 1
@@ -39,3 +39,5 @@ if (age < 18) {
 console.log(ticketPrice);
 
 // Punto 3
+
+document.getElementById('result').innerText = `Il prezzo del suo biglietto è ${ticketPrice}`
