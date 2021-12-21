@@ -35,8 +35,10 @@ if (age < 18) {
 } else if (age > 65) {
     ticketPrice = ticketPrice * 0.6;
 }
-
 console.log(ticketPrice);
+
+ticketPrice = ticketPrice.toFixed(2)
+console.log(ticketPrice)
 
 // Punto 3
 
