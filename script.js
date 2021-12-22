@@ -15,14 +15,14 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 
 1 - Chiediamo all'utente i Km che vuole percorrere in treno e la sua età
 2 - Calcoliamo il prezzo del biglietto in base alle varie variabili della traccia
-3 - Recuperiamo un elemento in pagina e stampo il risultato
+3 - Recuperiamo un elemento in pagina e stampiamo il risultato
 */
 
 // Punto 1
 
-const distanceKm = prompt('A quanto ammonta la distanza che vuoi percorrere? (Indicare la distanza in chilometri)');
+const distanceKm = parseInt(prompt('A quanto ammonta la distanza che vuoi percorrere? (Indicare la distanza in chilometri)').trim());
 console.log(distanceKm);
-const age = prompt('Quanti anni hai?');
+const age = parseInt(prompt('Quanti anni hai?').trim());
 console.log(age);
 
 // Punto 2
